@@ -1,11 +1,10 @@
-import bg from "@/assets/images/bg.png";
 import highlight from "@/assets/images/highlight.png";
 import rankingGradient from "@/assets/images/rankingGradient.png";
-import watchfy from "@/assets/images/watchfy.png";
+import sfondo from "@/assets/images/sfondo.png";
+
 
 export const images = {
-  bg,
   highlight,
   rankingGradient,
-  watchfy
-};
+  sfondo
+  };
