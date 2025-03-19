@@ -4,7 +4,7 @@ import { Text, View, Image, ScrollView, ActivityIndicator, FlatList } from "reac
 import { icons } from "@/constants/icons";
 import SearchBar from "@/components/SearchBar";
 import { useRouter } from "expo-router";
-import useFetch from "@/services/useFetch";
+import useFetch from "@/services/usefetch";
 import { fetchMovies } from "@/services/api";
 import MovieCard from "@/components/MovieCard";
 

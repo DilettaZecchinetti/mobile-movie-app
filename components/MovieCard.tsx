@@ -8,6 +8,7 @@ const MovieCard = ({ id, poster_path, title, vote_average, release_date }: Movie
     
   return (
     <Link href={`/movies/${id}`} asChild >
+      
         <TouchableOpacity className='w-[30%]'>
             <Image
             source={{
@@ -30,6 +31,7 @@ resizeMode="cover"
 {/* <Text className='text-xs font-medium text-light-300 uppercase'>Movie</Text> */}
 </View>
 </TouchableOpacity>
+
 </Link>
   )
 }
